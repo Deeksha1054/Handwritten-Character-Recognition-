@@ -31,8 +31,8 @@ python -m venv venv
 source venv/bin/activate   # On macOS/Linux
 venv\Scripts\activate      # On Windows
 3️⃣ Install Dependencies
-
 pip install -r requirements.txt
+
 📌 Usage
 Run the Flask App
 
@@ -41,13 +41,13 @@ The app will run on http://127.0.0.1:5000/. Open it in your browser.
 
 Make Predictions via API
 Send a POST request with an image:
+ http://127.0.0.1:5000/predict
 
-
-curl -X POST -F "file=@test.png" http://127.0.0.1:5000/predict
 🔗 API Endpoints
 Endpoint	Method	Description
-/	GET/POST	Web interface to upload images and get predictions
+/POST	Web interface to upload images and get predictions
 /predict	POST	API endpoint to get character prediction from an image
+
 📦 Dependencies
 This project uses:
 
