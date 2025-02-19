@@ -8,7 +8,7 @@ Handwritten Character Recognition with Deep Learning and Flask A web-based appli
 - Model processes the image and predicts the corresponding character.
 - Supports digits (0-9), uppercase (A-Z), and lowercase (a-z) letters.
 - Provides an API endpoint for easy integration.
-- Built with **Flask**, **TensorFlow**, and **OpenCV**.
+- Built with **Flask**, **pytorch**, and **OpenCV**.
 
 ---
 
@@ -25,13 +25,6 @@ Handwritten Character Recognition with Deep Learning and Flask A web-based appli
 
 
 ---
-2️⃣ Create a Virtual Environment (Optional but Recommended)
-
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
-3️⃣ Install Dependencies
-pip install -r requirements.txt
 
 📌 Usage
 Run the Flask App
@@ -51,20 +44,19 @@ Endpoint	Method	Description
 📦 Dependencies
 This project uses:
 
-Python 3.10
-Flask 2.2.5
-TensorFlow 2.13.0
-NumPy 1.23.5
-OpenCV 4.7.0.72
-Matplotlib 3.6.2
-Pillow 9.3.0
-Scikit-learn 1.2.0
-Gunicorn 20.1.0
-Werkzeug 2.2.2
-Flask-CORS 3.0.10
-Install them with:
+Python 3.8+
 
-🙏 Acknowledgement
+Flask
+
+PyTorch
+
+OpenCV
+
+NumPy
+
+torchvision
+
+🙏 Acknowledgement-
 under guidance of: Dr Agughasi Victor Ikechukwu (https://github.com/Victor-Ikechukwu)
 
 🤝 Contributing
